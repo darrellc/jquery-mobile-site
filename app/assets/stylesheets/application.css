@@ -1,0 +1,32 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require refinery/formatting
+ *= require refinery/theme
+ *= require_self
+ *= require_tree .
+ */
+
+.ui-mobile-viewport, .ui-overlay-c{background:#FBFFCB;}
+/* SITE BAR */
+#site_bar{width:100%;position:absolute;bottom:0px;z-index:1000;text-shadow:none;}
+
+/*MENU STYLES*/
+#topMenu{border-top:1px solid #949681;border-bottom:1px solid #949681;max-width:1000px;}
+#topMenu ul li a{background:#BCBFA2;text-shadow:none;border:none;border-left:1px solid #949681;border-right:1px solid #949681;}
+
+/* PAGE STYLES */
+#header{max-width:1000px;margin:auto;}
+#page{background:white;max-width:960px;margin:auto;-webkit-box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, .3);box-shadow: 0px 10px 20px 10px rgba(0, 0, 0, .3);}
+
+/* BODY CONTENT */
+#body_content{padding:20px;}
+
+

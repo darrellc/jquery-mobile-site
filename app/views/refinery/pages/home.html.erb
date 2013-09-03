@@ -1,0 +1,9 @@
+<div id="shadow-container">
+	<div data-role="navbar">
+		<div id="topMenu">
+			<%= Refinery::Pages::MenuPresenter.new(refinery_menu_pages, self).to_html %>
+		</div>
+	</div>
+	<%= render '/refinery/content_page' %>
+</div>
+
